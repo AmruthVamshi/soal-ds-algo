@@ -173,5 +173,5 @@ function are_anagrams(str1,str2){
 	} 
 	} 
 } 
-ans = O(n*(n^k))
+ans = O((n^(k+1))/k+1)
 */
